@@ -23,6 +23,7 @@
 
 # print(f'{list_of_numbers} x {another_list_of_numbers} = {list_of_products}')
 
+
 # 2 Matrix Addition
 
 # # create list of lists
@@ -55,9 +56,11 @@
 #   # output should be [6, 5, 3, 4]
 #   print(list[::-1]) 
 
+
 # # 3 Matrix Addition II
 
 # print('I accidentally solved this in number 2 :-D')
+
 
 # 4 De-dup
 
@@ -75,12 +78,13 @@
 # print(list_of_numbers_with_duplicates)
 # print(list_of_strings_with_duplicates)
 
+
 # # 5 Leetspeak
 
 # user_input = input(
 # """I'm a babelfish. I can translate any language into another language.
 # Here I'll show you...
-# I'll translate anything you type into leetspeak
+# Type something and I'll translate it into leetspeak
 # """
 # )
 
@@ -108,5 +112,33 @@
 
 # print(translated_text)
 
-# 6
 
+# 6 Long-long Vowels
+# user_input = input('Type a word: ')
+# output = ''
+# previous_letter = ''
+
+# for letter in user_input:
+#   # check if the previous letter and the current letter are the same vowels
+#   if previous_letter == 'a' and letter == 'a':
+#     #if yes output 3 extra letters
+#     output += 'aaa'
+#   elif previous_letter == 'e' and letter == 'e': 
+#     output += 'eee'
+#   elif previous_letter == 'i' and letter == 'i': 
+#     output += 'iii'
+#   elif previous_letter == 'o' and letter == 'o': 
+#     output += 'ooo'
+#   elif previous_letter == 'u' and letter == 'u': 
+#     output += 'uuu'
+#   # otherwise
+#   else:
+#     # save letter to output
+#     output += letter
+#     # lastly make previous_letter equal to the current letter
+#     previous_letter = letter
+
+# print(output)
+
+
+# 7
