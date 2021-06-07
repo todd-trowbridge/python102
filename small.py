@@ -54,4 +54,4 @@ numbers = [0,12,3,44,54,-76,17,108,29]
 # print(reversed_string)
 
 #8 V2
-print('elephant'[::-1])
+# print('elephant'[::-1])
